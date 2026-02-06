@@ -1,5 +1,4 @@
-# jodi
-Library for Control Plan Extension (Jodi is pronounced as "spec")
+# Sidecar C++ Library
 
 ## Dependencies
 - Curl

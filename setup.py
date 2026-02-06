@@ -67,7 +67,7 @@ class CMakeBuild(build_ext):
 setup(
     name=name,
     version="1.0.0",
-    author="David L. Adei",
+    author="John Doe",
     author_email="lokingdav@gmail.com",
     description="Python Binding for Control Plane Extension Library in C++",
     python_requires=">=3.7",

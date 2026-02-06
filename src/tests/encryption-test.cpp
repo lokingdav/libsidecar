@@ -8,7 +8,7 @@ using namespace libjodi;
 SCENARIO("Encryption scheme allows one to encrypt and/or decrypt", "[encryption]") {
     GIVEN("Any secret key and plaintext information") {
         Bytes key = Ciphering::Keygen();
-        Bytes plaintext = Utils::StringToBytes("David L. Adei");
+        Bytes plaintext = Utils::StringToBytes("John Doe");
 
         WHEN("plaintext is encrypted into ctx") {
             Bytes ctx = Ciphering::Encrypt(key, plaintext);

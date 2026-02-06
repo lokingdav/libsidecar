@@ -54,7 +54,7 @@ SCENARIO("Util helper functions are useful") {
         }
 
         WHEN("xor'ed with another message") {
-            string key = "David L. Adei";
+            string key = "John Doe";
             Bytes mbytes = Utils::StringToBytes(msg);
             Bytes kBytes = Utils::StringToBytes(key);
             Bytes ctx = Utils::Xor(mbytes, kBytes);
